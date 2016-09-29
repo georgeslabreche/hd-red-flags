@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'/>
+		<title>Health Data Red Flags</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Medecine Price Red Flags</a>
+		    </div>
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<table class="table table-bordered table-hover table-condensed table-adrenaline">
+					    <thead>
+					        <tr>
+					            <th title="Field #1">order_number</th>
+					            <th title="Field #2">order_name</th>
+					            <th title="Field #3">ate_name</th>
+					            <th title="Field #4">lot_name</th>
+					            <th title="Field #5">okgz_name</th>
+					            <th title="Field #6">procurement_name</th>
+					            <th title="Field #7">address</th>
+					            <th title="Field #8">prodact_amount</th>
+					            <th title="Field #9">procurement_price</th>
+					            <th title="Field #10">supplier_price</th>
+					            <th title="Field #11">ekonom</th>
+					            <th title="Field #12">otmena</th>
+					            <th title="Field #13">proc_price_for_one_product</th>
+					            <th title="Field #14">supp_price_for_product</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>16030981017-01</td>
+					            <td>Медикаменты и изделия медицинского назначения</td>
+					            <td>Нарынская Область</td>
+					            <td>Адреналин 0,18% 1,0 №10</td>
+					            <td>Адреналин</td>
+					            <td>Центр семейной медицины Жумгальского р-на</td>
+					            <td> </td>
+					            <td align="right">20</td>
+					            <td align="right">4000</td>
+					            <td>2820</td>
+					            <td>1180</td>
+					            <td align="right">554520</td>
+					            <td align="right">200</td>
+					            <td>141</td>
+					        </tr>
+					        <tr>
+					            <td>16031281004-01</td>
+					            <td>Приобретение Медикаментов и ИМН</td>
+					            <td>город Бишкек</td>
+					            <td>Адреналин г/х 0,18 % 1,0 №10</td>
+					            <td>Адреналин</td>
+					            <td>Национальный центр охраны материнства и детства</td>
+					            <td> </td>
+					            <td align="right">5</td>
+					            <td align="right">775</td>
+					            <td>720,3</td>
+					            <td>54,7</td>
+					            <td align="right">4669655</td>
+					            <td align="right">155</td>
+					            <td>144.06</td>
+					        </tr>
+					        <tr>
+					            <td>16030281029-01</td>
+					            <td>Приобретение Медикаменты и ИМН.</td>
+					            <td>город Бишкек</td>
+					            <td>адреналин</td>
+					            <td>Адреналин</td>
+					            <td>Городская детская клиническая больница скорой медицинской помощи</td>
+					            <td> </td>
+					            <td align="right">20</td>
+					            <td align="right">3060</td>
+					            <td>2920</td>
+					            <td>140</td>
+					            <td align="right">1196860</td>
+					            <td align="right">153</td>
+					            <td>146</td>
+					        </tr>
+					        <tr>
+					            <td>16030281013-01</td>
+					            <td>Медикаменты и ИМН</td>
+					            <td>город Бишкек</td>
+					            <td>Адреналин р-р 0,18% 1,0 №10</td>
+					            <td>Адреналин</td>
+					            <td>Клиническая больница Управления делами Президента и Правительства Кыргызской Республики</td>
+					            <td> </td>
+					            <td align="right">30</td>
+					            <td align="right">4590</td>
+					            <td>4410</td>
+					            <td>180</td>
+					            <td align="right">2320994</td>
+					            <td align="right">153</td>
+					            <td>147</td>
+					        </tr>
+					        <tr>
+					            <td>16030481025-01</td>
+					            <td>Медикаменты и ИМН.</td>
+					            <td>Чуйская Область</td>
+					            <td>Адреналин</td>
+					            <td>Адреналин</td>
+					            <td>Токмокская Территориальная больница</td>
+					            <td> </td>
+					            <td align="right">50</td>
+					            <td align="right">10250</td>
+					            <td>7500</td>
+					            <td>2750</td>
+					            <td align="right">3266475</td>
+					            <td align="right">205</td>
+					            <td>150</td>
+					        </tr>
+					        <tr>
+					            <td>16030781006-01</td>
+					            <td>Медикаменты и ИМН на II-квартал 2016г</td>
+					            <td>Ошская Область</td>
+					            <td>Адреналин</td>
+					            <td>Адреналин</td>
+					            <td>Алайская территориальная больница</td>
+					            <td> </td>
+					            <td align="right">6</td>
+					            <td align="right">1500</td>
+					            <td>900</td>
+					            <td>600</td>
+					            <td align="right">2079382</td>
+					            <td align="right">250</td>
+					            <td>150</td>
+					        </tr>
+					        <tr>
+					            <td>16031481003-01</td>
+					            <td>Медикаменты и ИМН</td>
+					            <td>город Бишкек</td>
+					            <td>Адреналин 0,18%-1,0 №10</td>
+					            <td>Адреналин</td>
+					            <td>Центр семейной медицины №9</td>
+					            <td> </td>
+					            <td align="right">5</td>
+					            <td align="right">875</td>
+					            <td>750</td>
+					            <td>125</td>
+					            <td align="right">307901</td>
+					            <td align="right">175</td>
+					            <td>150</td>
+					        </tr>
+					        <tr>
+					            <td>16031681014-01</td>
+					            <td>Покупка медикаментов и изделий медицинского назначения</td>
+					            <td>город Бишкек</td>
+					            <td>адреналин</td>
+					            <td>Адреналин</td>
+					            <td>Городская стоматолтгическая поликлиника №3</td>
+					            <td> </td>
+					            <td align="right">2</td>
+					            <td align="right">344</td>
+					            <td>300</td>
+					            <td>44</td>
+					            <td align="right">313260</td>
+					            <td align="right">172</td>
+					            <td>150</td>
+					        </tr>
+					        <tr>
+					            <td>16033091045-01</td>
+					            <td>Медикаменты и ИМН</td>
+					            <td>Ошская Область</td>
+					            <td>Адреналин Эпинефрин 0,18%</td>
+					            <td>Адреналин</td>
+					            <td>Центр семейной медицины Алайского района</td>
+					            <td> </td>
+					            <td align="right">30</td>
+					            <td align="right">6600</td>
+					            <td>4500</td>
+					            <td>2100</td>
+					            <td align="right">546810</td>
+					            <td align="right">220</td>
+					            <td>150</td>
+					        </tr>
+					        <tr>
+					            <td>16031081018-01</td>
+					            <td>Медикаменты на II квартал 2016 года.</td>
+					            <td>город Ош</td>
+					            <td>Эфинеприн (Адреналин) 0,18% 1,0 №10</td>
+					            <td>Адреналин</td>
+					            <td>Ошская межобластная объединенная клиническая больница</td>
+					            <td> </td>
+					            <td align="right">30</td>
+					            <td align="right">6000</td>
+					            <td>4560</td>
+					            <td>1440</td>
+					            <td align="right">9709762</td>
+					            <td align="right">200</td>
+					            <td>152</td>
+					        </tr>
+					        <tr>
+					            <td>16030381010-01</td>
+					            <td>Приобретение медикаментов и ИМН</td>
+					            <td>Джалал-Абадская Область</td>
+					            <td>Адреналин</td>
+					            <td>Адреналин</td>
+					            <td>Ташкумырский Центр семейной медицины</td>
+					            <td> </td>
+					            <td align="right">5</td>
+					            <td align="right">795</td>
+					            <td>775</td>
+					            <td>20</td>
+					            <td align="right">804270</td>
+					            <td align="right">159</td>
+					            <td>155</td>
+					        </tr>
+					        <tr>
+					            <td>16031081027-01</td>
+					            <td>Приобретение медикаментов и изделий медицинского назначения</td>
+					            <td>Нарынская Область</td>
+					            <td>адреналин 0,18% 1х10</td>
+					            <td>Адреналин</td>
+					            <td>Нарынский областной центр семейной медицины</td>
+					            <td> </td>
+					            <td align="right">4</td>
+					            <td align="right">760</td>
+					            <td>632</td>
+					            <td>128</td>
+					            <td align="right">485635</td>
+					            <td align="right">190</td>
+					            <td>158</td>
+					        </tr>
+					        <tr>
+					            <td>16033191047-01</td>
+					            <td>Медикаменты и ИМН (ФОР)</td>
+					            <td>Нарынская Область</td>
+					            <td>Адреналин 0,18% 1,0 №10</td>
+					            <td>Адреналин</td>
+					            <td>Кочкорская территориальная больница</td>
+					            <td> </td>
+					            <td align="right">20</td>
+					            <td align="right">5000</td>
+					            <td>3840</td>
+					            <td>1160</td>
+					            <td align="right">472450</td>
+					            <td align="right">250</td>
+					            <td>192</td>
+					        </tr>
+					        <tr>
+					            <td>16032271072-01</td>
+					            <td>Медикаменты и ИМН</td>
+					            <td>Джалал-Абадская Область</td>
+					            <td>Адреналин 0,0018% 10*10</td>
+					            <td>Адреналин</td>
+					            <td>Жалал-Абадская областная объединенная больница</td>
+					            <td> </td>
+					            <td align="right">100</td>
+					            <td align="right">23000</td>
+					            <td>20600</td>
+					            <td>2400</td>
+					            <td align="right">3987290</td>
+					            <td align="right">230</td>
+					            <td>206</td>
+					        </tr>
+					        <tr>
+					            <td>16030791006-01</td>
+					            <td>Приобретение медикаментов реактивы и ИМН</td>
+					            <td>Ошская Область</td>
+					            <td>Адреналин</td>
+					            <td>Адреналин</td>
+					            <td>Центр Семейной медицины Медигос</td>
+					            <td> </td>
+					            <td align="right">20</td>
+					            <td align="right">7000</td>
+					            <td>4360</td>
+					            <td>2640</td>
+					            <td align="right">1711865</td>
+					            <td align="right">350</td>
+					            <td>218</td>
+					        </tr>
+					        <tr>
+					            <td>16031881018-01</td>
+					            <td>Лекарственные средства и ИМН на 2016г</td>
+					            <td>Баткенская Область</td>
+					            <td>Адреналина г/хл 0,18%-1,0 №10амп</td>
+					            <td>Адреналин</td>
+					            <td>Учреждение Центр семейной медицины Ляйлякского района</td>
+					            <td> </td>
+					            <td align="right">10</td>
+					            <td align="right">4200</td>
+					            <td>2200</td>
+					            <td>2000</td>
+					            <td align="right">2410889</td>
+					            <td align="right">420</td>
+					            <td>220</td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			
+		  var supplyPriceAvg = 164.3163;
+
+		  $('tbody tr').each(function() {
+
+		  	var supplyPrice = Number($($(this).find('td')[13]).text())
+		  	var index = ((supplyPriceAvg - supplyPrice) / supplyPriceAvg) * 100;
+		  	
+		  	console.log(index);
+
+		  	if(index >= 30){
+		  		$(this).css('background-color', '#006d2c');
+
+		  	}else if(index >= 25){
+		  		$(this).css('background-color', '#31a354');
+
+		  	}else if(index >= 20){
+		  		$(this).css('background-color', '#74c476');
+		  		
+		  	}else if(index >= 15){
+		  		$(this).css('background-color', '#a1d99b');
+		  		
+		  	}else if(index >= 10){
+		  		$(this).css('background-color', '#c7e9c0');
+		  		
+		  	}else if(index >= 5){
+		  		$(this).css('background-color', '#edf8e9');	
+
+		  	}
+
+		  	if(index <= -30){
+		  		$(this).css('background-color', '#a50f15');
+
+		  	}else if(index <= -25){
+		  		$(this).css('background-color', '#de2d26');
+
+		  	}else if(index <= -20){
+		  		$(this).css('background-color', '#fb6a4a');
+		  		
+		  	}else if(index <= -15){
+		  		$(this).css('background-color', '#fc9272');
+		  		
+		  	}else if(index <= -10){
+		  		$(this).css('background-color', '#fcbba1');
+		  		
+		  	}else if(index <= -5){
+		  		$(this).css('background-color', '#fee5d9');	
+
+		  	}
+
+
+		  });
+		
+		</script>
+	</body>
+</html>
